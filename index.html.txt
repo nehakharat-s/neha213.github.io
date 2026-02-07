@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Colorful Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            color: black;
+            margin: 30px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: #ffdd00;
+        }
+
+        button {
+            background-color: #2575fc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6a11cb;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌟 Welcome to My Website 🌟</h1>
+        <p><i>Learning HTML & CSS</i></p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            My name is <b>Neha</b>.<br>
+            I am a <i>student</i> learning <strong>web development</strong>.<br>
+            I love <mark>designing colorful websites</mark>.
+        </p>
+
+        <button>Click Me</button>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <p>
+            ✔ HTML <br>
+            ✔ CSS <br>
+            ✔ Learning JavaScript
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 My First Website</p>
+    </footer>
+
+</body>
+</html>
